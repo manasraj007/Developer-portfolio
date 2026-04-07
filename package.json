@@ -1,0 +1,12 @@
+{
+  "name": "developer-portfolio",
+  "version": "1.0.0",
+  "description": "Manas Raj Developer Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx browser-sync start --server --files \"*.html, assets/css/*.css, assets/js/*.js, *.csv\"",
+    "dev": "npm start"
+  },
+  "author": "Manas Raj Hans",
+  "license": "MIT"
+}
